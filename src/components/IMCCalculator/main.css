@@ -1,0 +1,51 @@
+.IMCCalculatorContainer {
+    background-color: #ffffff;
+    border: 5px solid #fec343;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.IMCCalculator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.IMCCalculator label {
+    color: #a09f9f;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.IMCCalculator input[type="text"],
+.IMCCalculator input[type="number"],
+.IMCCalculator select,
+.IMCCalculator button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.IMCCalculator button {
+    background-color: #fec343;
+    font-weight: 900;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.IMCCalculator button:hover {
+    background-color: #f2c055;
+}
+
+.IMCCalculator p {
+    margin-top: 10px;
+    font-weight: bold;
+}
